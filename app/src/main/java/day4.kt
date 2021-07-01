@@ -1,6 +1,4 @@
-
 import kotlin.io.*
-
 
 class Person(initialAge: Int) {
 
@@ -25,9 +23,7 @@ class Person(initialAge: Int) {
     fun yearPasses() {
         age++
     }
-
 }
-
 
 fun main(args: Array<String>) {
     val ich = Person(readLine()!!.trim().toInt())
